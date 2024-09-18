@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "R&ASoccerSportsEquipment",
+    "motivations": "I want to be a DRep because I believe the Cardano ecosystem is the only truly decentralized blockchain that gives everybody a voice. I very much want to move my business and professional portfolio to the Cardano ecosystem, away from the legacy framework. Professional experiences I can contribute are 11 years of academia, as well as 15 years of business ownership. On a personal level, I am very much interested in becoming DRep due to my love of anything to do with computers. Cardano offers this, where I can base my personal and professional experiences on my business, as well as computers.",
+    "objectives": "What I believe and what I want to achieve as a DRep is to carry on with my objective, which is to allow people to open their documents which are stored long-term. My innovative product will allow businesses and individuals to utilize this service, connecting through B2B and B2C. By delegating to my wallet for my business to become a DRep, it will allow a very interesting and productive experience used by those in Cardano. I believe being a DRep would allow others to see my business useful, which includes the services it offers.",
+    "paymentAddress": "addr1q9x3cjtuy424rlrqzchxxlpcgf5c9h0utyqtaljjwed77ld2yj7eh5t424fy8v7vs6rg6an5qnt37yt46tmjf6y4z06sw75nyq",
+    "qualifications": "Qualifications I believe are relevant to my role as a DRep are the amount of time I have put into the space since 2021. As a stock trader, I moved to blockchain due to finding NFTs. I then moved to Solidity programming but found Cardano based on a love for peer-reviewed research. This, combined with an easy developer experience and beautiful community has led me to focusing on Cardano all around. I also posses qualifications in project management and a scientific discovery, which I presented at colloquia throughout the United States. I am still continuing on with my discovery, but want to implement my findings into the Cardano Ecosystem. After my discovery, I proved my theorems at peer-reviewed conferences. I can now continue my findings, hopefully adding value as a DRep for those to learn from my findings. My main goal to contribute to the Ecosystem is the writing of papers, which the community can adopt as their own.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "A LinkedIn account to verify my Project Management work with my company",
+        "uri": "https://www.linkedin.com/in/robert-ariano-a27515291/"
+      },
+      {
+        "@type": "Link",
+        "label": "Facebook page for R & A Soccer Sports Equipment, Inc., email used with Intersect",
+        "uri": "https://www.facebook.com/p/R-A-Soccer-Sports-Equipment-Inc-100066791825561/"
+      },
+      {
+        "@type": "Identity",
+        "label": "Link to my soccer business, R & A Soccer Sports Equipment, Inc., online store",
+        "uri": "https://www.google.com/search?q=r+%26+a+soccer+sports+equipment+inc&sca_esv=f1fd60fc7b0159d6&sca_upv=1&sxsrf=ADLYWIIlrgPisxJhl3v3HC2Goj_kpRsAnQ%3A1726676322734&source=hp&ei=Yv3qZq2lKqn00PEP6d6tuQw&iflsig=AL9hbdgAAAAAZusLcpS1UlDs0QbdjMIsSdiYzHh6gkzk&gs_ssp=eJwFwdEOQCAUANB5tfmH64FXt2KVT_AX3MrYKJXp851TN8M-MOZEZM93CqzmDouSgpAr4SzXTI56xkJaG5xGJR0ZuW60tBF6WCF5IhshBR9zAvu8R7jsneG46QdfkBsi&oq=r&gs_lp=Egdnd3Mtd2l6GgIYASIBcioCCAAyDRAuGMcBGCcYjgUYrwEyChAjGIAEGCcYigUyBBAjGCcyBBAjGCcyChAAGIAEGEMYigUyERAuGIAEGJECGNEDGMcBGIoFMhEQLhiABBiRAhjHARiKBRivATIKEAAYgAQYQxiKBTIXEC4YgAQY0QMY0gMY8wUYxwEYqAMYiwMyCxAAGIAEGLEDGIsDSKwQUABYAHAAeACQAQCYAXSgAXSqAQMwLjG4AQHIAQD4AQGYAgGgAnqYAwCSBwMwLjGgB_wS&sclient=gws-wiz"
+      }
+    ]
+  }
+}
