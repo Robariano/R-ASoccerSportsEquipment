@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "robertariano@gmail.com",
+    "motivations": "I am looking to be a DRep due to my time in the Cardano Ecosystem before the Chang hard fork. I believe the Chang upgrade is the last piece to a decentralized government that understands that every voice is important to the future of Cardano. I also believe my soccer business can help reach many people in countries other than the United States, as places such as Latin America have adopted this game ahead of North American States.",
+    "objectives": "As A DRep I believe my business can add value to the Cardano Ecosystem. I know what is important as an entrepreneur and believe my knowledge in governance and sound academic research can contribute to the community. I believe in the structure of Cardano and am looking forward to using the Cardano Constitution as a basis for what the community can contribute to.",
+    "paymentAddress": "addr_test1qp73gjd88y064az48v3wrffpjksfkr5uk2cwha9g69am4ytg60clc2n9e685zzswcmxgcke83l6kgrderes8l86kqwls88wyze",
+    "qualifications": "Completed Cardano Academy class through Cardano and am currently going through Plutus Pioneer Program Interation 4",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "The link is Facebook which is in re-construction in certain areas",
+        "uri": "https://www.facebook.com/p/R-A-Soccer-Sports-Equipment-Inc-100066791825561/"
+      },
+      {
+        "@type": "Identity",
+        "label": "Linkedin resource as a project manager and owner of R&A Soccer Sports Equipment",
+        "uri": "https://www.linkedin.com/in/robert-ariano-a27515291/"
+      }
+    ]
+  }
+}
